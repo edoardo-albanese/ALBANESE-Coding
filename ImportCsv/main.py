@@ -1,7 +1,7 @@
 import csv
 import os
 
-elements = os.listdir("C:\Coding Projects\Python\ImportCsv")
+elements = os.listdir("../ImportCsv")
 print(elements)
 
 path = elements[0]
