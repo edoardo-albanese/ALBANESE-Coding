@@ -1,6 +1,8 @@
-import turtle
+from turtle import *
 
-t = turtle.Turtle()
+t = Turtle()
+#cb = t.screensize()
+#print(cb) non funziona
 
 def polygon(sides : int, length : int, pos : tuple):
     t.pu()
@@ -12,7 +14,9 @@ def polygon(sides : int, length : int, pos : tuple):
         t.right(360/sides)
     t.pu()
 
-polygon(5, 60, (70,40))
-polygon()
+polygon(6, 60, (70,40))
+polygon(12, 40, (-200,-50))
+polygon(4, 50, (220, -70))
+polygon(8, 40, (-200, 260))
 
 wait = input("press enter...")
